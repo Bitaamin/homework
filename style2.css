@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+   
+
+}
+
+label {
+    text-align: right;
+    display: block;
+    width: 100px;
+    margin-right: 10px;
+}
+form {
+    display: flex;
+    margin: 10px;
+}
+input:valid,
+input:in-range {
+    border-color: green;
+}
+input:invalid,
+input:out-of-range{
+    border-color: red;
+}
+.yes {
+    margin-left: -60px;
+}
+
+section {
+    /* border: 1px solid grey; */
+    width: 600px;
+    position: relative;
+    margin: 50px;
+}
+/* .bordertext {
+    background-color: white;
+    position: absolute;
+    top: -10px;
+    left: 10px;
+} */

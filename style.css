@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.sec1 {
+    border-radius: 20px;
+    border: 1px solid grey; 
+    margin: auto;
+    display: flex;
+    width: 500px;
+   
+
+}
+.div2{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    width: 400px;
+}
+#input1{
+    margin: 10px 0;
+}
+
+#textarea{
+    margin-top:10px ;
+}
+p {
+    text-align: right;
+    margin-right: 5px;
+    margin: 10px 0;
+}
+.body {
+    display: flex;
+    margin: auto;
+}
+button{
+    width: 150px;
+    margin: 10px 0;
+}
